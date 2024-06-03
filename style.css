@@ -67,18 +67,33 @@ button:hover {
 }
 
 
-.myname{
-    padding: 50px;
-    background-color: white;
-    margin: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.page-break {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 40px 0;
 }
 
-.div3{
-    padding: 50px;
-    background-color: aliceblue;
-    margin: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.navbar{
+    color: #218838;
+    display: flex;
+    justify-content: left;
+    align-items: row;
+    gap: 20px;
+    background-color: aqua;
+    width: 100vw;
+    margin: 0;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    left: 1px;
 }
