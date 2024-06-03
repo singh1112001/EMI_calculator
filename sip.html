@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="navbar">
+            <div> <button> <a href="index.html"> Home </a> </button></div>
+            <div><button> <a href="./emi.html" target="_blank">emi calculator</a> </button></div>
+            <div><button> <a href="./sip.html" target="_blank">SIP Calculator</a> </button></div>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>SIP Calculator</h1>
+        <div class="calculator">
+            <label for="monthly-investment">Monthly Investment Amount:</label>
+            <input type="number" id="monthly-investment" placeholder="Enter monthly investment amount">
+
+            <label for="sip-rate">Annual Interest Rate (R) %:</label>
+            <input type="number" id="sip-rate" placeholder="Enter interest rate">
+
+            <label for="sip-time">Investment Period (N) in years:</label>
+            <input type="number" id="sip-time" placeholder="Enter investment period">
+
+            <button onclick="calculateSIP()">Calculate SIP</button>
+
+            <div class="result">
+                <h2>Future Value: <span id="sip-value"></span></h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
